@@ -1199,8 +1199,15 @@ a.dark_background:hover,
 .info {
     display: inline-block;
     position: relative;
-    font-size: 15px;
+    font-size: 14px;
     color: hsl(0, 0%, 73%);
+    width: 16px;
+    text-align: center;
+
+    i {
+        vertical-align: middle;
+        margin-bottom: 4px;
+    }
 }
 
 div.message_table {
